@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ReadConnectionString</id>
+        <version>1.0.0</version>
+        <title>ReadConnectionString</title>
+        <authors>praadak</authors>
+        <owners>Pravin</owners>
+        <iconUrl>D:\Projects\Pravin Project\CheckYourCar.UI\Images\favicon.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>true</developmentDependency>
+        <description>This Package helps to access your ConnectionString placed in web.config.It is necessary to name Connection string as "CHECK" .</description>
+        <summary>This Package helps to access your ConnectionString placed in web.config.It is necessary to name Connection string as "CHECK"</summary>
+        <copyright>@Capgemini</copyright>
+        <language>en-US</language>
+        <tags>readConnectionstring,sql</tags>
+        <serviceable>false</serviceable>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Configuration" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+</package>
